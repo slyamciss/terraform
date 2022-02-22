@@ -38,3 +38,8 @@ output "new" {
 output "cli" {
   value = var.cli
 }
+
+## output for shell variable
+output "shell" {
+  value = var.shell
+}

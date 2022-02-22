@@ -42,3 +42,6 @@ variable "new" {}
 
 ## value from CLI
 variable "cli" {}
+
+## accessing shell variable
+variable "shell" {}
