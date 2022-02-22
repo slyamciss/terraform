@@ -39,3 +39,6 @@ variable "map" {
 
 ## variable values from tfvars
 variable "new" {}
+
+## value from CLI
+variable "cli" {}

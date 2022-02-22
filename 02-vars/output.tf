@@ -33,3 +33,8 @@ output "map-boolean" {
 output "new" {
   value = var.new
 }
+
+## output for CLI
+output "cli" {
+  value = var.cli
+}
