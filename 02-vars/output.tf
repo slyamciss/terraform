@@ -28,3 +28,8 @@ output "map-number" {
 output "map-boolean" {
   value = var.map["boolean"]
 }
+
+## output for tfvars
+output "new" {
+  value = var.new
+}
