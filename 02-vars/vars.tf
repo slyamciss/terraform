@@ -27,3 +27,12 @@ variable "sample3" {
 variable "list" {
   default = [ "Hello", 90, true ]
 }
+
+## Map variables
+variable "map" {
+  default = {
+    string = "Hello",
+    number = 200,
+    boolean = true
+  }
+}
