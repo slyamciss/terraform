@@ -40,6 +40,7 @@ output "cli" {
 }
 
 ## output for shell variable
+### export TF_VAR_shell="bash" uses to specify the bash command to run
 output "shell" {
   value = var.shell
 }
