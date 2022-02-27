@@ -7,4 +7,5 @@ resource "aws_instance" "web" {
     Name = "web"
   }
 }
+
 variable "SG_ID" {}
